@@ -1,0 +1,1 @@
+# nm-dispatcher-resolv.conf
