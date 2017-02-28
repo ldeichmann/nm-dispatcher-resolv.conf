@@ -1,11 +1,11 @@
 pkgname=nm-dispatcher-resolv.conf
-pkgver=r2.bfc7cc0
+pkgver=r3.6a0e38f
 pkgrel=1
 pkgdesc="NetworkManager makes me cry"
 arch=('any')
 url="https://github.com/polygamma/nm-dispatcher-resolv.conf"
 license=('various')
-depends=('networkmanager-openvpn' 'openresolv')
+depends=('networkmanager-openvpn' 'openresolv' 'bash')
 makedepends=('git')
 source=("git+${url}.git")
 sha256sums=('SKIP')
