@@ -1,5 +1,5 @@
 pkgname=nm-dispatcher-resolv.conf
-pkgver=r4.01a99d2
+pkgver=r7.898831c
 pkgrel=1
 pkgdesc="NetworkManager makes me cry"
 arch=('any')
