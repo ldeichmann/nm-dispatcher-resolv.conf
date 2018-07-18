@@ -23,9 +23,6 @@ vpn-up)
 vpn-down)
   $RESOLVCONF -d "${VPN_IP_IFACE}.inet"
   ;;
-up)
-  /usr/bin/sysctl -w net.ipv6.conf.all.disable_ipv6=1
-  ;;
 esac
 
 exit 0
